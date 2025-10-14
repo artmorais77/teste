@@ -1,0 +1,12 @@
+{
+  "name": "teste",
+  "version": "1.0.0",
+  "main": "src/server.ts",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "tsx": "^4.19.1"
+  }
+}
