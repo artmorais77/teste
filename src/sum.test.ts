@@ -5,7 +5,14 @@ describe("sum", () => {
 
   beforeAll(() => {
     sumResult = 10
+    console.log("ANTES DE EXECUTAR OS TESTE")
   })
+
+  afterAll(() => {
+    sumResult = 0
+    console.log("DEPOIS DE EXECUTAR OS TESTE")
+  })
+
   it("sum of 3 + 7 equals 10", () => {
     const result = sum(7, 3);
 
